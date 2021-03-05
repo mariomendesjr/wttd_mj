@@ -19,7 +19,7 @@ python -m venv .wttd
 source .wttd/bin/activate
 # Windows
 ./.wttd/Scripts/activate  
-pip install -r requirements
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
